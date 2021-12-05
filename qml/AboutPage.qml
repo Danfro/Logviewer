@@ -73,7 +73,7 @@ Page {
                 linkColor: UbuntuColors.orange
                 horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-                text: "<a href='https://github.com/ruditimmer/Logviewer/tree/" + "2.3" + "'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmer/Logviewer/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://paypal.me/neothethird'>" + i18n.tr("DONATE") + "</a>"
+                text: "<a href='https://github.com/ruditimmer/Logviewer'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmer/Logviewer/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://paypal.me/neothethird'>" + i18n.tr("DONATE") + "</a>"
                 onLinkActivated: Qt.openUrlExternally(link)
             }
             
